@@ -1,23 +1,25 @@
-import logo from './logo.svg';
 import './App.css';
-
+import Navbar from './Components/navbar';
+import VisitCard from './Components/visititemlist';
+import tourData from './Data/data';
 function App() {
+  const tour =tourData.map((items)=>{
+    return(
+      <VisitCard
+      key={items.id}
+      items={items}
+      
+      />
+    )
+  })
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Navbar />
+      <section className="visit-item-lists">
+        {tour}
+        
+      </section>
+      
     </div>
   );
 }

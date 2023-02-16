@@ -1,0 +1,97 @@
+.parent-visit-item{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+  
+    height: 280px;
+    min-width: 60%;
+    max-width: 60%;
+    margin: auto;
+    font-family: Inter sans-serif;
+    font-style: normal;
+}
+
+.visit-item
+{
+    align-items: center;
+    display: flex;
+}
+.img
+{
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+.Informations
+{
+    display: flex;
+    align-items: center;
+    
+}
+.locationlogo
+{
+    margin-left: 15px;
+    height: 15px;
+    width: 15px;
+}
+.visit-item-country
+{
+    margin-left: 5px;
+    letter-spacing:2px;
+    color: #2b283a;
+}
+.maps
+{
+    
+    margin-left: 15px;
+    color: #918E9B;
+    font-size: 12px;
+}
+.visit-item-title
+{
+    
+    font-size: 25px;
+    font-weight: 700;
+    color: #2b283a;
+    line-height: 30px;
+    margin:10px 15px;
+    width: 200px;
+    
+}
+.tour-data
+{
+    margin-left: 15px;
+    margin-top: 15px;
+}
+.Date
+{
+    font-weight: 700px;
+    font-size: 12px;
+    word-spacing: 1px;
+    line-height: 12px;
+    color:#2B283A;
+    
+
+}
+.content
+{
+    display: flex;
+    margin-left: 20px;
+    flex-direction: column;
+}
+.visit-item-description
+{
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp:5;
+    overflow: hidden;
+    margin-top: 10px;
+    font-size: 13px;
+    color: #2B283A;
+
+}
+
+.line
+{
+  border: 1px solid black;
+}
